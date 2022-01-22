@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+
+<exceptions>
+
+    <exception package="com.google.android.contacts">
+        <permission name="android.permission.READ_CALENDAR" fixed="false"/>
+        <permission name="android.permission.WRITE_CALENDAR" fixed="false"/>
+        <permission name="android.permission.READ_CONTACTS" fixed="false"/>
+        <permission name="android.permission.WRITE_CONTACTS" fixed="false"/>
+        <permission name="android.permission.GET_ACCOUNTS" fixed="false"/>
+        <permission name="android.permission.READ_PHONE_STATE" fixed="false"/>
+        <permission name="android.permission.CALL_PHONE" fixed="false"/>
+        <permission name="android.permission.READ_CALL_LOG" fixed="false"/>
+        <permission name="android.permission.WRITE_CALL_LOG" fixed="false"/>
+        <permission name="android.permission.ADD_VOICEMAIL" fixed="false"/>
+        <permission name="android.permission.USE_SIP" fixed="false"/>
+        <permission name="android.permission.PROCESS_OUTGOING_CALLS" fixed="false"/>
+        <permission name="android.permission.SEND_SMS " fixed="false"/>
+        <permission name="android.permission.RECEIVE_SMS" fixed="false"/>
+        <permission name="android.permission.READ_SMS" fixed="false"/>
+        <permission name="android.permission.RECEIVE_WAP_PUSH" fixed="false"/>
+        <permission name="android.permission.RECEIVE_MMS" fixed="false"/>
+        <permission name="android.permission.READ_CELL_BROADCASTS" fixed="false"/>
+        <permission name="android.permission.READ_EXTERNAL_STORAGE" fixed="false"/>
+        <permission name="android.permission.WRITE_EXTERNAL_STORAGE" fixed="false"/>
+    </exception>
+
+    <exception package="com.google.android.dialer">
+        <permission name="android.permission.READ_CONTACTS" fixed="false"/>
+        <permission name="android.permission.WRITE_CONTACTS" fixed="false"/>
+        <permission name="android.permission.GET_ACCOUNTS" fixed="false"/>
+        <permission name="android.permission.ACCESS_FINE_LOCATION" fixed="false"/>
+        <permission name="android.permission.ACCESS_COARSE_LOCATION" fixed="false"/>
+        <permission name="android.permission.RECORD_AUDIO" fixed="false"/>
+        <permission name="android.permission.READ_PHONE_STATE" fixed="false"/>
+        <permission name="android.permission.CALL_PHONE" fixed="false"/>
+        <permission name="android.permission.READ_CALL_LOG" fixed="false"/>
+        <permission name="android.permission.WRITE_CALL_LOG" fixed="false"/>
+        <permission name="android.permission.ADD_VOICEMAIL" fixed="false"/>
+        <permission name="android.permission.USE_SIP" fixed="false"/>
+        <permission name="android.permission.PROCESS_OUTGOING_CALLS" fixed="false"/>
+        <permission name="android.permission.READ_EXTERNAL_STORAGE" fixed="false"/>
+        <permission name="android.permission.WRITE_EXTERNAL_STORAGE" fixed="false"/>
+    </exception>
+
+    <exception package="com.google.android.apps.messaging">
+        <permission name="android.permission.CAMERA" fixed="false"/>
+        <permission name="android.permission.READ_CONTACTS" fixed="false"/>
+        <permission name="android.permission.WRITE_CONTACTS" fixed="false"/>
+        <permission name="android.permission.GET_ACCOUNTS" fixed="false"/>
+        <permission name="android.permission.ACCESS_FINE_LOCATION" fixed="false"/>
+        <permission name="android.permission.ACCESS_COARSE_LOCATION" fixed="false"/>
+        <permission name="android.permission.RECORD_AUDIO" fixed="false"/>
+        <permission name="android.permission.READ_PHONE_STATE" fixed="false"/>
+        <permission name="android.permission.CALL_PHONE" fixed="false"/>
+        <permission name="android.permission.READ_CALL_LOG" fixed="false"/>
+        <permission name="android.permission.WRITE_CALL_LOG" fixed="false"/>
+        <permission name="android.permission.ADD_VOICEMAIL" fixed="false"/>
+        <permission name="android.permission.USE_SIP" fixed="false"/>
+        <permission name="android.permission.PROCESS_OUTGOING_CALLS" fixed="false"/>
+        <permission name="android.permission.SEND_SMS " fixed="false"/>
+        <permission name="android.permission.RECEIVE_SMS" fixed="false"/>
+        <permission name="android.permission.READ_SMS" fixed="false"/>
+        <permission name="android.permission.RECEIVE_WAP_PUSH" fixed="false"/>
+        <permission name="android.permission.RECEIVE_MMS" fixed="false"/>
+        <permission name="android.permission.READ_CELL_BROADCASTS" fixed="false"/>
+        <permission name="android.permission.READ_EXTERNAL_STORAGE" fixed="false"/>
+        <permission name="android.permission.WRITE_EXTERNAL_STORAGE" fixed="false"/>
+    </exception>
+
+</exceptions>

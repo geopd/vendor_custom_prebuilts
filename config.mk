@@ -23,3 +23,19 @@ else
 PRODUCT_PACKAGES += \
     CameraGo
 endif
+
+ifeq ($(USE_GDIALER),true)
+PRODUCT_PACKAGES += \
+    GoogleContacts \
+    GoogleDialer \
+    PrebuiltBugle \
+    com.google.android.dialer.support
+
+PRODUCT_PACKAGE_OVERLAYS += \
+    vendor/custom/prebuilts/MinGapps/overlay
+
+PRODUCT_COPY_FILES += \
+    vendor/custom/prebuilts/MinGapps/etc/default-permissions/default-permissions-dialer.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/default-permissions/default-permissions-dialer.xml \
+    vendor/custom/prebuilts/MinGapps/etc/permissions/com.google.android.dialer.support.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.google.android.dialer.support.xml \
+    vendor/custom/prebuilts/MinGapps/etc/permissions/privapp-permissions-google-dialer.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-google-dialer.xml
+endif
